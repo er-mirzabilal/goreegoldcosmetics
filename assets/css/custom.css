@@ -1,0 +1,35 @@
+.ingredients {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ingredient {
+    width:280px;
+    height:400px;
+}
+.ingredient img {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+
+}
+.designed-by-info {
+    display: inline;
+    margin:10px;
+}
+.designed-by-info > p {
+    font-size:24px;
+}
+.footer-container {
+    background-color:antiquewhite;
+}
+.slidedescription {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: #666;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}

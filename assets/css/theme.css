@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
-@import url('../../../../../../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('./font-awesome.min.css');
 /* footer */
 /* menu */
 /* Ishi ProductBlock */
@@ -1761,7 +1761,7 @@
       margin-bottom: 20px; } }
     @media (max-width: 767px) {
     #ishislider .slider-content .desc {
-      display: none; } }
+      display: block; } }
     #ishislider .slider-content .desc p {
       color: #666; }
     @media (max-width: 767px) {
@@ -11847,7 +11847,7 @@ div.required .control-label:before {
   .block-title .navbar-toggler i.add, .footer-title .navbar-toggler i.add {
     display: none; }
   .block-title .navbar-toggler i.remove, .footer-title .navbar-toggler i.remove {
-    display: block; }
+    display: block; }logo
   .block-title.collapsed .navbar-toggler i.add, .footer-title.collapsed .navbar-toggler i.add {
     display: block; }
   .block-title.collapsed .navbar-toggler i.remove, .footer-title.collapsed .navbar-toggler i.remove {
