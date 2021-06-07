@@ -21,8 +21,13 @@
   <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/css/theme.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- JavaScripts -->   
+
+    <!-- JavaScripts -->
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.js"></script>
   <script src="assets/js/owl.carousel.js"></script>
@@ -33,6 +38,10 @@
   <script src="assets/js/instafeed.js"></script>
   <script src="assets/js/ishi.initialize.js"></script>
   <script src="assets/js/support.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
   <!-- Document Title -->
   <title>Goree Gold Cosmatic</title>
@@ -48,7 +57,7 @@
     </div>
     <!-- header -->
     <header id="header" class="home">
-        <div class="nav-full-width">
+        <div class="nav-full-width" style="background-image: linear-gradient(to right,#e38ea5,gold);">
           <div class="container">
             <div class="row">
               <!-- mega menu -->
@@ -57,8 +66,8 @@
                 <div class="clearfix"></div>
               </div>
             <!-- mobile media -->
-              <div id="menu-icon" class="menu-icon hidden-lg-up" style="width:100%; padding:10px 0; text-align:center">
-                  <h1> Goree Gold</h1>
+              <div id="menu-icon" class="menu-icon hidden-lg-up" style="width:100%; text-align:center; padding:0; background-image: linear-gradient(to right,#e38ea5,gold)">
+                  <h2> Goree Gold Cosmetics</h2>
               </div>
             </div>
           </div>
@@ -74,32 +83,44 @@
     <!-- hometop -->    
     <div id="top_home">
       <!-- slider -->
-      <section id="ishislider" class="ishislider-container owl-carousel">
-        <div class="item">
-          <a href="categorypage_leftcolumn.html" class="slideshow__link">
-            <img src="assets/images/testimonial/testimonialbackground.png" alt="Slide-1" class="img-responsive">
-            <div class="container">
-                <div class="row">
-              <div class="slider-content col-md-5 col-sm-6 col-6" style="text-align:left">
-<!--                <h1 class="slider-title">Goree Gold Beauty Careem</h1>-->
-                <h2 class="main-title">Goree Gold Careem</h2>
-                <div class="desc"><p>We proudly introducing Beauty Careem, new advance formula with SPA-30</p></div>
-              </div>
-                <div class="col-md-7 col-sm-6 col-6">
-                    <img src="assets/images/slider/DSC01293-removebg-preview.png" />
-                </div>
-            </div>
-            </div>
-          </a>
-        </div>
+      <section id="ishislider" class="ishislider-container owl-carousel ">
+          <div class="item">
+              <a href="#" class="slideshow__link">
+                  <img src="assets/images/slider/slide-1.jpg" alt="Slide-2" class="img-responsive">
+                  <div class="container">
+                      <div class="slider-content col-md-5 col-sm-6 col-5 slider-content-right" style="text-align:left">
+                          <h3 class="slider-title"> Introducing</h3>
+                          <h6 class="main-title">Goree Gold </h6>
+                          <div class="desc text-center"><p style="display:inline"> with Advance Formula     </p></div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="item">
+              <a href="#" class="slideshow__link">
+                  <img src="assets/images/slider/slide-1.jpg" alt="Slide-2" class="img-responsive">
+                  <div class="container">
+                      <div class="slider-content col-md-5 col-sm-6 col-5 slider-content-right" style="text-align:left">
+                          <h3 class="slider-title"> Introducing</h3>
+                          <h6 class="main-title">Goree Gold </h6>
+                          <div class="desc text-center"><p style="display:inline"> with Advance Formula     </p></div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+<!--        <div class="item">-->
+<!--          <a href="categorypage_leftcolumn.html" class="slideshow__link">-->
+<!--            <img src="assets/images/slider/banner-7.jpg" alt="Slide-1" class="img-responsive">-->
+<!--          </a>`-->
+<!--        </div>-->
       </section>
       <!-- aboutusblock -->
       <section class="About-container ishiaboutusblock">
-        <div class="container">
-          <div class="row">
+        <div class="container  wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+          <div>
               <div class="about1">
-                <div class="col-xl-7 col-lg-6 col-md-12 col-xs-12 about-img-block" style="text-align:center;">
-                  <img class="about-img img-fluid" src="assets/images/about/aboutus.png" alt="Demo Shop">
+                <div class="col-xl-7 col-lg-6 col-md-12 col-xs-12 about-img-block" style="text-align:center; border-radius:10px" >
+                  <img class="about-img img-fluid" src="assets/images/about/ab-11.jpg" alt="Demo Shop">
                 </div>
                 <div class="col-xl-5 col-lg-6 col-md-12 col-xs-12 about-text">
                     <div class="about-text-block">
@@ -120,150 +141,72 @@
           </div>
         </div>
       </section>
-
-      <!-- serviceblock -->
-
-      <!-- product block -->
-      <section id="ishiproductsblock" class="ishiproductsblock container">
-        <div class="section-header text-center">
-          <div class="subtitle">THE LATEST</div>
-            <h2 class="title">Goree Gold Products</h2>
-        </div>      
-        <div class="logo-bar">
-          <div class="row">
-            <div class="block_content">
-              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
-                  <div class="product-container">
-                      <div class="image">
-                        <a href="#" class="thumbnail product-thumbnail">
-                          <img src="assets/images/product/product-1.png" alt="product-img">
-                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/1.jpg" >
-                        </a>
-                        <div class="product-comments">
-                          <div class="star_content">
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                          </div>
+<!--   whitening scale -->
+<!--        <section class="container">-->
+<!--            <img class="img-fluid" src="assets/images/about/scale-2.jpg"/>-->
+<!--        </section>-->
+        <!-- Why Goree gold careeem -->
+        <section class="ishiaboutusblock ">
+            <div class="container  wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
+                <div class="row">
+                    <div class="about2" style="justify-content:center; margin:20px auto">
+                        <div class="text-wrapper about-text2">
+                            <div class="about-text-block section-header">
+                                <h2 class="title">Why Goree Gold Careem ?</h2>
+                            </div>
                         </div>
-                      </div>
-                      <div class="caption">
-                        <div class="product-title"><a href="productpage_leftcolumn.html">Goree Gold Beauty Careem</a></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
-                  <div class="product-container">
-                      <div class="image">
-                        <a href="productpage_leftcolumn.html" class="thumbnail product-thumbnail">
-                          <img src="assets/images/product/coming_soon.jpg" alt="product-img">
-                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/coming_soon.jpg">
-                        </a>
-                        <div class="product-comments">
-                          <div class="star_content">
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                              <div class="star star_on"></div>
-                          </div>
                         </div>
-                      </div>
-                      <div class="caption">
-                        <div class="product-title"><a href="productpage_leftcolumn.html">Goree Gold Face wash</a></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
-                  <div class="product-container">
-                      <div class="image">
-                        <a href="productpage_leftcolumn.html" class="thumbnail product-thumbnail">
-                          <img src="assets/images/product/coming_soon.jpg" alt="product-img">
-                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/coming_soon.jpg">
-                        </a>
-                        <div class="product-comments">
-                          <div class="star_content">
-                              <div class="star grey"></div>
-                              <div class="star grey"></div>
-                              <div class="star grey"></div>
-                              <div class="star grey"></div>
-                              <div class="star grey"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="caption">
-                        <div class="product-title"><a href="productpage_leftcolumn.html">Goree Gold Beauty Soap</a></div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- About Goree gold careeem -->
-      <section class="ishiaboutusblock">
-        <div class="container">
-          <div class="row">
-            <div class="about2" style="width:100%; justify-content:center; margin:20px auto">
-              <div class="text-wrapper about-text2">
-                <div class="about-text-block section-header">
-                  <div class="subtitle">THE PRODUCT</div>
-                  <h2 class="title">Why Goree Gold Careem ?</h2>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="about2">
-              <div class="text-wrapper col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 about-text2">
-                <div class="about-text-block section-header">
-                  <div class="description" style="text-align:left;">
-                    <p>
-                      Goree Gold Careem includes <strong>Papaya</strong>. Papaya has skin lightening properties that help clear blemishes and pigmentation.The enzyme papain dissolves inactive proteins and dead skin cells.
-                    </p>
-                    <p>
-                      Presence of <strong>Aloe Vera</strong> gel is capable of lightening blemishes, acne scars, and getting rid of dark spots
-                    </p>
-                    <p>
-                       Presence of <strong>Avocado</strong> claims itchy, heal chapped, replenish dryness, hydrate, and moisturize of skin
-                    </p>
-                    <p>
-                      Presence of <strong>Multivitamins </strong> Remove dark spots, redness, wrinkles, rough patches, and excessive dryness of skin
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="about-image-wrapper col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 about-img2">
-                <img class="about-img img-fluid" src="assets/images/about/aboutus-3.png" alt="Demo Shop">
-            </div>
-              <div class="text-wrapper col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 about-text2">
-                <div class="about-text-block section-header">
-                  <div class="subtitle">Key Features</div>
-                  <div class="description" style="text-align:left">
-                    <div class="key-features">
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> INSTANT GLOWINGS</h4>
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> FAIRER SKIN</h4>
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> SKIN TONING</h4>
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> ANTI-DARK SPOTS</h4>
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> PROTECT FROM UV RAYS</h4>
-                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> ANTI-OXIDANT</h4>
+                <div class="row">
+                    <div class="about2">
+                        <div class="text-wrapper col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 about-text2">
+                            <div class="about-text-block section-header">
+                                <div class="description" style="text-align:left;">
+                                    <p>
+                                        Goree Gold Careem includes <strong>Papaya</strong>. Papaya has skin lightening properties that help clear blemishes and pigmentation.The enzyme papain dissolves inactive proteins and dead skin cells.
+                                    </p>
+                                    <p>
+                                        Presence of <strong>Aloe Vera</strong> gel is capable of lightening blemishes, acne scars, and getting rid of dark spots
+                                    </p>
+                                    <p>
+                                        Presence of <strong>Avocado</strong> claims itchy, heal chapped, replenish dryness, hydrate, and moisturize of skin
+                                    </p>
+                                    <p>
+                                        Presence of <strong>Multivitamins </strong> Remove dark spots, redness, wrinkles, rough patches, and excessive dryness of skin
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image-wrapper col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 about-img2" >
+                            <img class="about-img img-fluid" src="assets/images/about/aboutus-10.JPEG" alt="Demo Shop">
+                        </div>
+                        <div class="text-wrapper col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 about-text2">
+                            <div class="about-text-block section-header">
+                                <div class="subtitle">Key Features</div>
+                                <div class="description" style="text-align:left">
+                                    <div class="key-features">
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> INSTANT GLOWINGS</h4>
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> FAIRER SKIN</h4>
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> SKIN TONING</h4>
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> ANTI-DARK SPOTS</h4>
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> PROTECT FROM UV RAYS</h4>
+                                        <h4 style="color:#777; margin:15px 10px"><span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span> ANTI-OXIDANT</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-        </div>
-          </div>
-        </div>
-      </section>
-<!--        Ingredients-->
+            </div>
+        </section>
+        <section class="container wow animate__animated animate__slideInRight" data-wow-delay="0.5s">
+            <img src="assets/images/about/scal3-3.jpg" style="width:100%"/>
+        </section>
         <section class="ingredients-section container">
             <div class="about-text-block section-header m-4">
                 <div class="subtitle text-center">NATURAL INGREDIENTS</div>
             </div>
-            <div class="ingredients">
+            <div class="ingredients wow animate__animated animate__bounceIn" data-wow-delay="0.5s">
                 <div class="ingredient ">
                     <img src="assets/images/ingredients/ingredient-1.jpg" alt="ingredients-1"/>
                 </div>
@@ -279,10 +222,64 @@
             </div>
         </section>
 
+        <!-- product block -->
+      <section id="ishiproductsblock" class="ishiproductsblock container wow animate__animated animate__backInRight">
+        <div class="section-header text-center">
+          <div class="subtitle">THE LATEST</div>
+            <h2 class="title">Goree Gold Products</h2>
+        </div>
+        <div class="logo-bar">
+          <div class="row">
+            <div class="block_content">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
+                  <div class="product-container">
+                      <div class="image">
+                        <a href="#" class="thumbnail product-thumbnail">
+                          <img src="assets/images/product/product-10.jpg" alt="product-img">
+                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/product-10.jpg" >
+                        </a>
+                      </div>
+                      <div class="caption">
+                        <div class="product-title"><a href="productpage_leftcolumn.html">Goree Gold Beauty Careem</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
+                  <div class="product-container">
+                      <div class="image">
+                        <a href="#" class="thumbnail product-thumbnail">
+                          <img src="assets/images/product/coming_soon-3.jpg" alt="product-img">
+                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/coming_soon-3.jpg">
+                        </a>
+                      </div>
+                      <div class="caption">
+                        <div class="product-title"><a href="#">Goree Gold Face wash</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 product-thumb">
+                  <div class="product-container">
+                      <div class="image">
+                        <a href="#" class="thumbnail product-thumbnail">
+                          <img src="assets/images/product/coming_soon-3.jpg" alt="product-img">
+                          <img class="product-img-extra change" alt="product-img" src="assets/images/product/coming_soon-3.jpg">
+                        </a>
+                      </div>
+                      <div class="caption">
+                        <div class="product-title"><a href="productpage_leftcolumn.html">Goree Gold Beauty Soap</a></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 <!--        customers review-->
       <section id="ishitesimonial" class="ishitestimonialsblock">
         <div class="bgimage">
-          <div class="container">
+          <div class="container wow animate__animated animate__swing" data-wow-delay="0.5s">
             <div class="section-header text-center">
               <div class="subtitle">THE PRODUCTS</div>
               <h2 class="title">Customer Review</h2>
@@ -342,37 +339,9 @@
       <div class="section-header text-center">
         <h2 class="title">Contect Us</h2>
       </div>
-      <div class="ishiservices row">
-        <div class="services col-lg-4 col-md-6 col-sm-6 col-xs-6">
-          <a href="about-us.html">
-            <div class="service-img-outer">
-              <div class="service-img">
-<!--                <img src="assets/images/services/1.png" alt="services1" class="img-fluid">-->
-                <span ><i class="fa fa-5x fa-map-marker" style="font-size:2rem"></i></span>
-              </div>
-            </div>
-            <div class="service-block">
-              <div class="service-title">Address</div>
-              <div class="service-desc">Deira Dubai</div>
-            </div>
-          </a>
-        </div>
-        <div class="services col-lg-4 col-md-6 col-sm-6 col-xs-6">
-          <a href="about-us.html">
-            <div class="service-img-outer">
-              <div class="service-img">
-<!--                <img src="assets/images/services/2.png" alt="services2" class="img-fluid">-->
-                <span class="icon"><i class="fa fa-phone" style="font-size:2rem"></i></span>
-              </div>
-            </div>
-            <div class="service-block">
-              <div class="service-title">Phone Number</div>
-              <div class="service-desc">+971 52 707 3535</div>
-            </div>
-          </a>
-        </div>
-        <div class="services col-lg-4 col-md-6 col-sm-6 col-xs-6">
-          <a href="about-us.html">
+      <div class="ishiservices row" style="display:block;">
+        <div class="services ">
+          <a href="mailto:goreegoldcosmetics@gmail.com" target="_blank">
             <div class="service-img-outer">
               <div class="service-img">
 <!--                <img src="assets/images/services/3.png" alt="services3" class="img-fluid">-->
@@ -382,7 +351,7 @@
             </div>
             <div class="service-block">
               <div class="service-title">Email</div>
-              <div class="service-desc">beautyfairpct@gmail.com</div>
+              <div class="service-desc">goreegoldcosmetics@gmail.com</div>
             </div>
           </a>
         </div>
@@ -392,29 +361,6 @@
 
     <!-- footer -->
     <footer id="footer">
-        <div class="footer-container">
-            <section id="ishiinstagramblock" class="tab-content clearfix" style="margin-bottom: -10px">
-                <div class="container">
-                    <div class="home-title">
-                        <a>
-                            <h3>Designed By</h3>
-                            Mirza Bilal</a>
-                        <div>
-                            <div class="designed-by-info">
-                                <span class="icon phone"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                                <span>mirza.bilal.ahmad8@gmail.com</span>
-                            </div>
-                            <div class="designed-by-info">
-                                <span class="icon phone"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                                <span>+92 3026427668</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="ishiinstagram-carousel" class="owl-carousel">
-                    </div>
-                </div>
-            </section>
-        </div>
         <div class="footer-after">
           <div class="container">
               <p class="footer-aftertext">
